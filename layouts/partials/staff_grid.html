@@ -1,0 +1,22 @@
+{{ $allowed := slice "linkedin" "github" "twitter" "website" "instagram" "youtube" }}
+{{ $labels := dict "linkedin" "LinkedIn" "github" "GitHub" "twitter" "Twitter" "website" "Website" "instagram" "Instagram" "youtube" "YouTube" }}
+<div class="staff-grid">
+  {{ range .Site.Data.staff }}
+  <div class="staff-card">
+    <img src="{{ .image }}" alt="{{ .name }}" class="staff-avatar" loading="lazy">
+    <p class="staff-name">{{ .name }}</p>
+    <a href="mailto:{{ .email }}" class="staff-email">{{ .email }}</a>
+    {{ with .links }}
+    <div class="staff-links">
+      {{ range . }}
+      {{ $type := lower .type }}
+      {{ $url := .url }}
+      {{ if in $allowed $type }}
+      <a href="{{ $url }}" class="staff-link" target="_blank" rel="noopener" aria-label="{{ index $labels $type }}">{{ partial (printf "icons/%s.html" $type) }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

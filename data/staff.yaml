@@ -1,0 +1,46 @@
+# Staff / team members
+# Fields: name, image (avatar path), email, links (optional array of type + url)
+# Link types: linkedin, github, twitter, website, instagram, youtube
+
+- name: Edwin Vargas Navarro
+  image: /images/staff/edwin.png
+  email: jedwin321@berkeley.edu
+  links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/edwin-vargas-navarro-423014237/
+    - type: github
+      url: https://github.com/jedwin3210
+
+- name: Eric Van Dusen
+  image: /images/staff/eric.png
+  email: ericvd@berkeley.edu
+  links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/ericvd/
+    - type: github
+      url: https://github.com/ericvd-ucb
+
+- name: John DeNero
+  image: /images/staff/john.png
+  email: denero@berkeley.edu
+  links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/johndenero/
+    - type: github
+      url: https://github.com/papajohn
+
+- name: Sean Morris
+  image: /images/staff/sean.png
+  email: sean.smorris@berkeley.edu
+  links:
+    - type: github
+      url: https://github.com/sean-morris
+
+- name: Shane Knapp
+  image: /images/staff/shane.png
+  email: sknapp@berkeley.edu
+  links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/shknapp/
+    - type: github
+      url: https://github.com/shaneknapp

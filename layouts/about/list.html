@@ -25,7 +25,7 @@
   </section>
 
   <!-- Remaining About Sections -->
-  <section class="section" style="padding-top: 0;">
+  <section class="section section-tight-bottom" style="padding-top: 0;">
     <div class="container">
       <div class="page-content" style="padding-top: 0;">
         <h2>A Collaborative Statewide Partnership</h2>
@@ -45,6 +45,8 @@
       </div>
     </div>
   </section>
+
+  {{ partial "staff_section.html" . }}
   
   {{ if .Params.show_cta }}
   {{ partial "cta_band.html" . }}

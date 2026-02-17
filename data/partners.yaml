@@ -12,7 +12,7 @@
 
 # CSU Partners
 - name: CSU Long Beach
-  logo: /images/logos/partners/csulb.png
+  logo: /images/logos/partners/csulb.jpg
   url: https://www.csulb.edu
 
 - name: CSU Maritime
@@ -30,6 +30,26 @@
 - name: CSU San Jose
   logo: /images/logos/partners/sjsu.png
   url: https://www.sjsu.edu
+
+- name: CSU Fresno
+  logo: /images/logos/partners/csufresno.png
+  url: https://www.fresnostate.edu/
+
+- name: CSU Los Angeles
+  logo: /images/logos/partners/csula.png
+  url: https://www.calstatela.edu/
+
+- name: CSU Northridge
+  logo: /images/logos/partners/csun.png
+  url: https://www.csun.edu/
+
+- name: CSU Chico State
+  logo: /images/logos/partners/csuchico.png
+  url: https://www.csuchico.edu/
+
+- name: CSU Sonoma
+  logo: /images/logos/partners/csusonoma.png
+  url: https://www.sonoma.edu/
 
 - name: CSU Monterey Bay
   logo: /images/logos/partners/csumb.png
@@ -49,10 +69,15 @@
   logo: /images/logos/partners/flc.png
   url: https://www.flc.losrios.edu
 
-- name: Cuesta College
-  logo: /images/logos/partners/cuesta.png
-  url: https://www.cuesta.edu
-
 - name: Diablo Valley College
   logo: /images/logos/partners/dvc.png
   url: https://www.dvc.edu
+
+- name: Fresno City College
+  logo: /images/logos/partners/fresno.png
+  url: https://www.fresnocitycollege.edu/
+
+# California Private Colleges
+- name: University of Southern California
+  logo: /images/logos/partners/usc.png
+  url: https://www.usc.edu/
